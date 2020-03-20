@@ -10,5 +10,6 @@ shinyServer(function(input, output) {
     #         messageItem(from = row[["from"]], message = row[["message"]])
     #     })
     # })
+    
 
 })

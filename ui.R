@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 
 dashboardPage(
-    dashboardHeader(title = "GrowData",
+    dashboardHeader(title = " GrowData",
                     dropdownMenuOutput("messageMenu"),
                     dropdownMenu(type = "notifications",
                                  notificationItem(
